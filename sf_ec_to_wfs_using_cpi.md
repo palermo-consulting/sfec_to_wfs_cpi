@@ -17,8 +17,10 @@ Do you think you can have a quick look at that standard interface why nothing is
 
 ## Documents Needed
 
-The integration document for WFS can be found here
+The integration document for WFS can be found here.
+
 [ABC](./SF_EC_INT_WorkForce_Software_CPI_en_Q3 2019.pdf)
+
 Documents for SF EC Odata API can be found at the SF EC Odata API repository.
 
 ## CPI Test Instance URL
