@@ -17,4 +17,4 @@ We really need to make sure this interface is still working, before John make th
 Do you think you can have a quick look at that standard interface why nothing is being sent to WFS ?
 
 Link to main documentation:
-[Click here.](/.sf_ec_to_wfs_using_cpi.md)
+[Click here.](sf_ec_to_wfs_using_cpi.md)
