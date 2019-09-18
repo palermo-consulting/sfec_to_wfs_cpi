@@ -19,7 +19,7 @@ Do you think you can have a quick look at that standard interface why nothing is
 
 The integration document for WFS can be found here.
 
-[ABC](./SF_EC_INT_WorkForce_Software_CPI_en_Q3 2019.pdf)
+[ABC](./employee_central_cost_center_to_ld_workforce.md)
 
 Documents for SF EC Odata API can be found at the SF EC Odata API repository.
 
