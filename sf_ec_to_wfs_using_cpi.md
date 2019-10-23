@@ -11,7 +11,7 @@ There are  3 processes that are working.
 We will need to modify one of these process to retrieve the correct data but also read the data from the SF Test instance instead of the Dev.
 
 In theory, if we execute that interface, these employees should be recreated again. But it seems not to be the case, we don’t get any error though…
- 
+
 We really need to make sure this interface is still working, before John make the adjustment and read data from SF Test.
 Do you think you can have a quick look at that standard interface why nothing is being sent to WFS ?
 
@@ -19,7 +19,7 @@ Do you think you can have a quick look at that standard interface why nothing is
 
 The integration document for WFS can be found here.
 
-[Click here.](./SF_EC_INT_WorkForce_Software_CPI_en_Q3_2019.md)
+[Click here.]( https://help.sap.com/viewer/ddb483eed9484283abff15820729a3cd/1908/en-US )
 
 Documents for SF EC Odata API can be found at the SF EC Odata API repository.
 
@@ -30,7 +30,7 @@ The link for the CPI (test instance) for PSAC : https://e30002-tmn.hci.ca1.hana.
 ## SF Test Instance URL
 
 As discussed yesterday, here is the link and credential to PSAC SuccessFactors Test instance:
- 
+
 URL : https://hcm17preview.sapsf.com/sf/admin?bplte_company=publicservT1
 User : adminjp
 Initial Pwd: in KeePass for security reasons
