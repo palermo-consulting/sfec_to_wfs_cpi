@@ -5,4 +5,478 @@
     <endDate>9999-12-31T00:00:00.000</endDate>
     <startDate>1900-01-01T00:00:00.000</startDate>
   </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>A/R Holdings</name_en_US>
+    <externalCode>15111-00000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>A/R AGR Clearing Pay</name_en_US>
+    <externalCode>15112-00000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>A/R NEU Clearing Pay</name_en_US>
+    <externalCode>15123-00000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>A/R Pension</name_en_US>
+    <externalCode>15136-00000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Capital assets - SAP Project</name_en_US>
+    <externalCode>16303-26000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Executive Office</name_en_US>
+    <externalCode>50000-11000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-Atl</name_en_US>
+    <externalCode>50000-11500000-100</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-Qc</name_en_US>
+    <externalCode>50000-11500000-200</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-NCR</name_en_US>
+    <externalCode>50000-11500000-300</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-On</name_en_US>
+    <externalCode>50000-11500000-400</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-PR</name_en_US>
+    <externalCode>50000-11500000-500</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-BC</name_en_US>
+    <externalCode>50000-11500000-600</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>REVP&apos;s Office-North</name_en_US>
+    <externalCode>50000-11500000-700</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>FB-Administration</name_en_US>
+    <externalCode>50000-21100000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Membership Adm</name_en_US>
+    <externalCode>50000-21200000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Financial Accounting</name_en_US>
+    <externalCode>50000-21300000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>HRIMB-Adm</name_en_US>
+    <externalCode>50000-25000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Human Resources</name_en_US>
+    <externalCode>50000-26000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Central Records</name_en_US>
+    <externalCode>50000-26700000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Information Tech</name_en_US>
+    <externalCode>50000-26800000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>RLSB-Administration</name_en_US>
+    <externalCode>50000-30000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Legal Services - QC</name_en_US>
+    <externalCode>50000-30000000-200</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation</name_en_US>
+    <externalCode>50000-32000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-ATL</name_en_US>
+    <externalCode>50000-32000000-100</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-Qc</name_en_US>
+    <externalCode>50000-32000000-200</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-ON</name_en_US>
+    <externalCode>50000-32000000-400</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-PR</name_en_US>
+    <externalCode>50000-32000000-500</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-BC</name_en_US>
+    <externalCode>50000-32000000-600</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation-North</name_en_US>
+    <externalCode>50000-32000000-700</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ROB-Admin</name_en_US>
+    <externalCode>50000-40000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Halifax RO</name_en_US>
+    <externalCode>50000-41000000-101</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Moncton RO</name_en_US>
+    <externalCode>50000-41000000-102</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Charlottetown RO</name_en_US>
+    <externalCode>50000-41000000-103</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>St. John&apos;s RO</name_en_US>
+    <externalCode>50000-41000000-104</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Montreal RO</name_en_US>
+    <externalCode>50000-41000000-201</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Quebec RO</name_en_US>
+    <externalCode>50000-41000000-202</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Ottawa RO</name_en_US>
+    <externalCode>50000-41000000-301</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Gatineau RO</name_en_US>
+    <externalCode>50000-41000000-302</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Toronto RO</name_en_US>
+    <externalCode>50000-41000000-401</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>London RO</name_en_US>
+    <externalCode>50000-41000000-402</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Thunder Bay RO</name_en_US>
+    <externalCode>50000-41000000-403</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Sudbury RO</name_en_US>
+    <externalCode>50000-41000000-404</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Kingston RO</name_en_US>
+    <externalCode>50000-41000000-405</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Winnipeg RO</name_en_US>
+    <externalCode>50000-41000000-501</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Saskatoon RO</name_en_US>
+    <externalCode>50000-41000000-502</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Regina RO</name_en_US>
+    <externalCode>50000-41000000-503</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Edmonton RO</name_en_US>
+    <externalCode>50000-41000000-504</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Calgary RO</name_en_US>
+    <externalCode>50000-41000000-505</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Vancouver RO</name_en_US>
+    <externalCode>50000-41000000-601</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Victoria RO</name_en_US>
+    <externalCode>50000-41000000-602</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Yellowknife RO</name_en_US>
+    <externalCode>50000-41000000-701</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Whitehorse RO</name_en_US>
+    <externalCode>50000-41000000-702</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Iqaluit RO</name_en_US>
+    <externalCode>50000-41000000-703</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Education</name_en_US>
+    <externalCode>50000-42000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>NPB-Admin</name_en_US>
+    <externalCode>50000-50000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Programs</name_en_US>
+    <externalCode>50000-53000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>SJF Social Justice Fund</name_en_US>
+    <externalCode>50000-56000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations</name_en_US>
+    <externalCode>50000-57000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations-ATL</name_en_US>
+    <externalCode>50000-57000000-100</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations-ON</name_en_US>
+    <externalCode>50000-57000000-400</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations-PR</name_en_US>
+    <externalCode>50000-57000000-500</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations-BC</name_en_US>
+    <externalCode>50000-57000000-600</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Negotiations-North</name_en_US>
+    <externalCode>50000-57000000-700</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Com, Pol Act and  Camp-Adm</name_en_US>
+    <externalCode>50000-60000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Com,Pol Act and Camp</name_en_US>
+    <externalCode>50000-61000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Language Services</name_en_US>
+    <externalCode>50000-62000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Mail Dist Centre</name_en_US>
+    <externalCode>50000-63000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Copy Centre</name_en_US>
+    <externalCode>50000-64000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Child Care Campaign</name_en_US>
+    <externalCode>65000-99805022-800</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ORG-Revenu Québec</name_en_US>
+    <externalCode>93000-200-200OROOREV</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ORG-ON FB-Frontier Border Services / Raid</name_en_US>
+    <externalCode>93000-300-300-ORSCFBR</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ORG QC-UNIV MCGILL EXCLUS</name_en_US>
+    <externalCode>93000200200ORUNMEX</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ORG ON-SLOTS AT WOODBINE</name_en_US>
+    <externalCode>93000200400OROOBIN</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>ORG-UNI Research Associate Organizing Drive</name_en_US>
+    <externalCode>93000200500ORUNRAO</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Wilfred Laurier University Campaign</name_en_US>
+    <externalCode>9300300400ORUNWLU</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>DUMMY Cost Center definition</name_en_US>
+    <externalCode>DUMMY_CC</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Procurement and Inventory Control</name_en_US>
+    <externalCode>50000-21600000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Representation - National Capital Region</name_en_US>
+    <externalCode>50000-32000000-300</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>Members Information Management</name_en_US>
+    <externalCode>50000-2150000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
 </FOCostCenter>
