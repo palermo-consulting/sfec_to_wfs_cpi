@@ -1,5 +1,5 @@
-# sfec_to_wfs_cpi
- SF EC integration to WFS using CPI ad Middleware
+# SFEC_TO_WFS_CPI
+ SF EC integration to WFS using CPI as Middleware
 
 ## Introduction
 
