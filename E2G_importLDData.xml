@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns8:E2G_importLDData xmlns:ns8="http://services.workforcesoftware.com/xsd">
+	<ns8:payload>
+		<ns9:data xmlns:ns9="http://ws.apache.org/axis2/xsd">
+			<ns9:record>
+				<ns9:eff_dated_info>
+					<ns9:data>
+						<ns9:effective_date>2019-11-01</ns9:effective_date>
+						<ns9:end_date>9999-12-31</ns9:end_date>
+						<ns9:values>
+							<ns9:ld_value>
+								<ns9:fieldName>DESCRIPTION</ns9:fieldName>
+								<ns9:fieldValue>Representation - National Capital Region</ns9:fieldValue>
+							</ns9:ld_value>
+							<ns9:ld_value>
+								<ns9:fieldName>C_LD1_STATUS_COST_CENTER</ns9:fieldName>
+								<ns9:fieldValue>I</ns9:fieldValue>
+							</ns9:ld_value>
+						</ns9:values>
+					</ns9:data>
+				</ns9:eff_dated_info>
+				<ns9:is_join_table>false</ns9:is_join_table>
+				<ns9:keys>
+					<ns9:ld_key>
+						<ns9:fieldName>COST_CENTER</ns9:fieldName>
+						<ns9:fieldValue>50000-32000000-300</ns9:fieldValue>
+					</ns9:ld_key>
+				</ns9:keys>
+				<ns9:table>1</ns9:table>
+			</ns9:record>
+		</ns9:data>
+	</ns8:payload>
+</ns8:E2G_importLDData>
