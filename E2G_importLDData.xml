@@ -25,6 +25,10 @@
 						<ns9:fieldName>COST_CENTER</ns9:fieldName>
 						<ns9:fieldValue>50000-32000000-300</ns9:fieldValue>
 					</ns9:ld_key>
+					<ns9:ld_key>
+						<ns9:fieldName>C_LD1_STATUS_COST_CENTER</ns9:fieldName>
+						<ns9:fieldValue>A</ns9:fieldValue>
+					</ns9:ld_key>
 				</ns9:keys>
 				<ns9:table>1</ns9:table>
 			</ns9:record>
