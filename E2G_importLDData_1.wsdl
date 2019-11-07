@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wsdl:definitions targetNamespace="http://services.workforcesoftware.com" xmlns:ax2150="http://ws.apache.org/axis2/xsd" xmlns:ax2152="http://webservices.workforcesoftware.com/xsd" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:ns="http://services.workforcesoftware.com/xsd" xmlns:ns1="http://org.apache.axis2/xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:tns="http://services.workforcesoftware.com" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <wsdl:documentation>E2G_importLDData</wsdl:documentation>
+  <wsdl:types>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://ws.apache.org/axis2/xsd" xmlns:ax2153="http://webservices.workforcesoftware.com/xsd">
+      <xs:import namespace="http://webservices.workforcesoftware.com/xsd"/>
+      <xs:complexType name="E2g_ld_import_payload">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="data" nillable="true" type="ax2150:E2g_ld_import_data"/>
+          <xs:element minOccurs="0" name="properties" nillable="true" type="ax2150:E2g_ld_import_properties"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_data">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="record" nillable="true" type="ax2150:E2g_ld_import_record"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_record">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="eff_dated_info" nillable="true" type="ax2150:E2g_ld_import_eff_dated_info"/>
+          <xs:element minOccurs="0" name="is_join_table" nillable="true" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="keys" nillable="true" type="ax2150:E2g_ld_import_keys"/>
+          <xs:element minOccurs="0" name="table" nillable="true" type="xs:int"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_eff_dated_info">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="data" nillable="true" type="ax2150:E2g_ld_import_eff_dated_info_data"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_eff_dated_info_data">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="effective_date" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="end_date" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="values" nillable="true" type="ax2150:E2g_ld_import_values"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_values">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ld_value" nillable="true" type="ax2150:E2g_generic_field"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_generic_field">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="fieldName" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="fieldValue" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_keys">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="ld_key" nillable="true" type="ax2150:E2g_generic_field"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_properties">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="property" nillable="true" type="ax2150:E2g_generic_field"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2G_importLDDataResult">
+        <xs:complexContent>
+          <xs:extension base="ax2152:WSResultObjectBase">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="result" nillable="true" type="ax2150:E2g_ld_import_response"/>
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:complexType name="E2g_ld_import_response">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="responseDateTime" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="responseOutput" nillable="true" type="ax2150:E2g_generic_fields"/>
+          <xs:element minOccurs="0" name="successful" nillable="true" type="xs:boolean"/>
+        </xs:sequence>
+      </xs:complexType>
+      <xs:complexType name="E2g_generic_fields">
+        <xs:sequence>
+          <xs:element maxOccurs="unbounded" minOccurs="0" name="generic_field" nillable="true" type="ax2150:E2g_generic_field"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://webservices.workforcesoftware.com/xsd">
+      <xs:complexType name="WSResultObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="detailedErrorMessage" nillable="true" type="xs:string"/>
+          <xs:element minOccurs="0" name="operationSuccessful" type="xs:boolean"/>
+          <xs:element minOccurs="0" name="resultCode" type="xs:int"/>
+          <xs:element minOccurs="0" name="resultDescription" nillable="true" type="xs:string"/>
+        </xs:sequence>
+      </xs:complexType>
+    </xs:schema>
+    <xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://services.workforcesoftware.com/xsd" xmlns:ax2151="http://ws.apache.org/axis2/xsd">
+      <xs:import namespace="http://ws.apache.org/axis2/xsd"/>
+      <xs:element name="E2G_importLDData">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="payload" nillable="true" type="ax2150:E2g_ld_import_payload"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="E2G_importLDDataResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="return" nillable="true" type="ax2150:E2G_importLDDataResult"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </wsdl:types>
+  <wsdl:message name="E2G_importLDDataRequest">
+    <wsdl:part element="ns:E2G_importLDData" name="parameters"/>
+  </wsdl:message>
+  <wsdl:message name="E2G_importLDDataResponse">
+    <wsdl:part element="ns:E2G_importLDDataResponse" name="parameters"/>
+  </wsdl:message>
+  <wsdl:portType name="E2G_importLDDataPortType">
+    <wsdl:operation name="E2G_importLDData">
+      <wsdl:input message="tns:E2G_importLDDataRequest" wsaw:Action="urn:E2G_importLDData"/>
+      <wsdl:output message="tns:E2G_importLDDataResponse" wsaw:Action="urn:E2G_importLDDataResponse"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="E2G_importLDDataSoap11Binding" type="tns:E2G_importLDDataPortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="E2G_importLDData">
+      <soap:operation soapAction="urn:E2G_importLDData" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="E2G_importLDDataSoap12Binding" type="tns:E2G_importLDDataPortType">
+    <soap12:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="E2G_importLDData">
+      <soap12:operation soapAction="urn:E2G_importLDData" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="E2G_importLDDataHttpBinding" type="tns:E2G_importLDDataPortType">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="E2G_importLDData">
+      <http:operation location="E2G_importLDData"/>
+      <wsdl:input>
+        <mime:content part="parameters" type="application/xml"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="parameters" type="application/xml"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="E2G_importLDData">
+    <wsdl:port binding="tns:E2G_importLDDataSoap11Binding" name="E2G_importLDDataHttpsSoap11Endpoint">
+      <soap:address location="https://psac-dev.wfsaas.ca/workforce/services/E2G_importLDData.E2G_importLDDataHttpsSoap11Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port binding="tns:E2G_importLDDataSoap11Binding" name="E2G_importLDDataHttpSoap11Endpoint">
+      <soap:address location=""/>
+    </wsdl:port>
+    <wsdl:port binding="tns:E2G_importLDDataSoap12Binding" name="E2G_importLDDataHttpsSoap12Endpoint">
+      <soap12:address location="https://psac-dev.wfsaas.ca/workforce/services/E2G_importLDData.E2G_importLDDataHttpsSoap12Endpoint/"/>
+    </wsdl:port>
+    <wsdl:port binding="tns:E2G_importLDDataSoap12Binding" name="E2G_importLDDataHttpSoap12Endpoint">
+      <soap12:address location=""/>
+    </wsdl:port>
+    <wsdl:port binding="tns:E2G_importLDDataHttpBinding" name="E2G_importLDDataHttpsEndpoint">
+      <http:address location="https://psac-dev.wfsaas.ca/workforce/services/E2G_importLDData.E2G_importLDDataHttpsEndpoint/"/>
+    </wsdl:port>
+    <wsdl:port binding="tns:E2G_importLDDataHttpBinding" name="E2G_importLDDataHttpEndpoint">
+      <http:address location=""/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
