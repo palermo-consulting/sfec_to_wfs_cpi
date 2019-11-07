@@ -1,0 +1,843 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+	<soap:Header/>
+	<soap:Body>
+		<ns3:E2G_importEmployees xmlns:ns3="http://services.workforcesoftware.com/xsd" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+			<ns3:payload xmlns:xml="http://www.w3.org/XML/1998/namespace">
+				<ns2:data xmlns:ns2="http://ws.apache.org/axis2/xsd" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+					<ns2:person xmlns:xml="http://www.w3.org/XML/1998/namespace">
+						<ns2:birth_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2009-09-10</ns2:birth_date>
+						<ns2:email_addresses xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+						<ns2:employee_data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+							<ns2:assignment xmlns:xml="http://www.w3.org/XML/1998/namespace">
+								<ns2:assignment_match_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:assignment_match_id>
+								<ns2:eff_dated_info xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">true</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">NO_MANAGER</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">40.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-01</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">40.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-15</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-29</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-01</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-10</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">U</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+									<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:adjusted_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_begin_date>
+										<ns2:assignment_description xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:assignment_description>
+										<ns2:badge_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:badge_id>
+										<ns2:company_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:company_code>
+										<ns2:cost_center xmlns:xml="http://www.w3.org/XML/1998/namespace">15112-00000000-000</ns2:cost_center>
+										<ns2:department_code xmlns:xml="http://www.w3.org/XML/1998/namespace">1265</ns2:department_code>
+										<ns2:district_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:district_code>
+										<ns2:division_code xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:division_code>
+										<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-15</ns2:effective_date>
+										<ns2:employment_type xmlns:xml="http://www.w3.org/XML/1998/namespace">REG</ns2:employment_type>
+										<ns2:external_payroll_id xmlns:xml="http://www.w3.org/XML/1998/namespace">454</ns2:external_payroll_id>
+										<ns2:fulltime_equivalency_percentage xmlns:xml="http://www.w3.org/XML/1998/namespace">100.0</ns2:fulltime_equivalency_percentage>
+										<ns2:fulltime_parttime_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">PT</ns2:fulltime_parttime_flag>
+										<ns2:hourly_salary_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">H</ns2:hourly_salary_flag>
+										<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+										<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+										<ns2:is_primary xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_primary>
+										<ns2:is_terminated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_terminated>
+										<ns2:job_code xmlns:xml="http://www.w3.org/XML/1998/namespace">JC0003</ns2:job_code>
+										<ns2:job_level xmlns:xml="http://www.w3.org/XML/1998/namespace">Test01</ns2:job_level>
+										<ns2:job_title xmlns:xml="http://www.w3.org/XML/1998/namespace">Administrative Support</ns2:job_title>
+										<ns2:latest_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_assignment_begin_date>
+										<ns2:location_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:location_code>
+										<ns2:manager_ids xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">
+												<ns2:manager_id xmlns:xml="http://www.w3.org/XML/1998/namespace">2667</ns2:manager_id>
+												<ns2:type xmlns:xml="http://www.w3.org/XML/1998/namespace">Timesheet Approver</ns2:type>
+											</ns2:manager_id>
+										</ns2:manager_ids>
+										<ns2:original_assignment_begin_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_assignment_begin_date>
+										<ns2:pay_rates xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+										<ns2:payroll_system_id xmlns:xml="http://www.w3.org/XML/1998/namespace">PERM-BW</ns2:payroll_system_id>
+										<ns2:region_code xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:region_code>
+										<ns2:seniority_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:seniority_date>
+										<ns2:standard_daily_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">0</ns2:standard_daily_hours>
+										<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+										<ns2:time_zone xmlns:xml="http://www.w3.org/XML/1998/namespace">America/Montreal</ns2:time_zone>
+									</ns2:data>
+								</ns2:eff_dated_info>
+							</ns2:assignment>
+							<ns2:eff_dated_info xmlns:xml="http://www.w3.org/XML/1998/namespace">
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-30</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">true</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">40.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-01</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-01</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-14</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">DC_MGR_CHG</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">40.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-15</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-15</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-31</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">PROB_PROM</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-29</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-15</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-10-31</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">PROB_PROM</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-01</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-01</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-09</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">PRC_SALDEC</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-10</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">U</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-10</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-14</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">LWOP_1YRP</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">U</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:leave_type xmlns:xml="http://www.w3.org/XML/1998/namespace">Unpaid</ns2:leave_type>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+								</ns2:data>
+								<ns2:data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+									<ns2:adjusted_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:adjusted_hire_date>
+									<ns2:effective_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-15</ns2:effective_date>
+									<ns2:fifty_employees_in_75_mile_radius_flag xmlns:xml="http://www.w3.org/XML/1998/namespace">UNKNOWN</ns2:fifty_employees_in_75_mile_radius_flag>
+									<ns2:gender xmlns:xml="http://www.w3.org/XML/1998/namespace">F</ns2:gender>
+									<ns2:generic_fields xmlns:xml="http://www.w3.org/XML/1998/namespace">
+										<ns2:generic_field1 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_COMPANY_ID</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AGR</ns2:fieldValue>
+										</ns2:generic_field1>
+										<ns2:generic_field2 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PSAC_POLICY_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEC_ELECTED</ns2:fieldValue>
+										</ns2:generic_field2>
+										<ns2:generic_field3 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_CODE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field3>
+										<ns2:generic_field4 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_UNION_SUBGROUP</ns2:fieldName>
+										</ns2:generic_field4>
+										<ns2:generic_field5 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_STAFF_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">AEU_II</ns2:fieldValue>
+										</ns2:generic_field5>
+										<ns2:generic_field6 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_AREA</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/ELECTED_AGR</ns2:fieldValue>
+										</ns2:generic_field6>
+										<ns2:generic_field7 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_TYPE</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/E5</ns2:fieldValue>
+										</ns2:generic_field7>
+										<ns2:generic_field8 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_PAY_SCALE_BAND</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN/AEU_II_X/E1/BD-1_AEU_II_X_E1</ns2:fieldValue>
+										</ns2:generic_field8>
+										<ns2:generic_field9 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_GROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">5360</ns2:fieldValue>
+										</ns2:generic_field9>
+										<ns2:generic_field10 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_EMPLOYEE_SUBGROUP</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">38384</ns2:fieldValue>
+										</ns2:generic_field10>
+										<ns2:generic_field11 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_FULLTIME_PARTTIME</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:fieldValue>
+										</ns2:generic_field11>
+										<ns2:generic_field12 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LD10_BUSINESS_ADDRESS_PROV</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">OTWP</ns2:fieldValue>
+										</ns2:generic_field12>
+										<ns2:generic_field13 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_STATUS</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:fieldValue>
+										</ns2:generic_field13>
+										<ns2:generic_field14 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_START_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-15</ns2:fieldValue>
+										</ns2:generic_field14>
+										<ns2:generic_field15 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_END_DT</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">9999-12-31</ns2:fieldValue>
+										</ns2:generic_field15>
+										<ns2:generic_field16 xmlns:xml="http://www.w3.org/XML/1998/namespace">
+											<ns2:fieldName xmlns:xml="http://www.w3.org/XML/1998/namespace">C_LOA_REASON</ns2:fieldName>
+											<ns2:fieldValue xmlns:xml="http://www.w3.org/XML/1998/namespace">LOA_RETURN</ns2:fieldValue>
+										</ns2:generic_field16>
+									</ns2:generic_fields>
+									<ns2:hr_status xmlns:xml="http://www.w3.org/XML/1998/namespace">A</ns2:hr_status>
+									<ns2:is_earliest_effective_dated xmlns:xml="http://www.w3.org/XML/1998/namespace">false</ns2:is_earliest_effective_dated>
+									<ns2:latest_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:latest_hire_date>
+									<ns2:original_hire_date xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-09-19</ns2:original_hire_date>
+									<ns2:standard_weekly_hours xmlns:xml="http://www.w3.org/XML/1998/namespace">45.0</ns2:standard_weekly_hours>
+								</ns2:data>
+							</ns2:eff_dated_info>
+						</ns2:employee_data>
+						<ns2:external_hr_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:external_hr_id>
+						<ns2:first_name xmlns:xml="http://www.w3.org/XML/1998/namespace">Ops</ns2:first_name>
+						<ns2:home_address xmlns:xml="http://www.w3.org/XML/1998/namespace">
+							<ns2:country xmlns:xml="http://www.w3.org/XML/1998/namespace">CAN</ns2:country>
+							<ns2:state_or_province xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+						</ns2:home_address>
+						<ns2:last_modification_time xmlns:xml="http://www.w3.org/XML/1998/namespace">2019-11-06T20:53:20.000Z</ns2:last_modification_time>
+						<ns2:last_name xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffing</ns2:last_name>
+						<ns2:phone_numbers xmlns:xml="http://www.w3.org/XML/1998/namespace"/>
+						<ns2:user_data xmlns:xml="http://www.w3.org/XML/1998/namespace">
+							<ns2:authentication_match_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:authentication_match_id>
+							<ns2:empcenter_login_id xmlns:xml="http://www.w3.org/XML/1998/namespace">Staffops</ns2:empcenter_login_id>
+							<ns2:language xmlns:xml="http://www.w3.org/XML/1998/namespace">FR</ns2:language>
+						</ns2:user_data>
+					</ns2:person>
+				</ns2:data>
+			</ns3:payload>
+		</ns3:E2G_importEmployees>
+	</soap:Body>
+</soap:Envelope>
