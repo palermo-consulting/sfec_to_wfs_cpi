@@ -1,0 +1,14 @@
+<FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>JLP Clearing - Pay</name_en_US>
+    <externalCode>13020-00000000-000</externalCode>
+    <endDate>2009-12-31T00:00:00.000</endDate>
+    <startDate>2008-01-10T00:00:00.000</startDate>
+  </FOCostCenter>
+  <FOCostCenter>
+    <name_en_US>A/R Holdings</name_en_US>
+    <externalCode>15111-00000000-000</externalCode>
+    <endDate>9999-12-31T00:00:00.000</endDate>
+    <startDate>1900-01-01T00:00:00.000</startDate>
+  </FOCostCenter>
+</FOCostCenter>

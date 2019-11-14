@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns24:E2G_importLDData xmlns:ns24="http://services.workforcesoftware.com/xsd">
+	<ns24:payload>
+		<ns25:data xmlns:ns25="http://ws.apache.org/axis2/xsd">
+			<ns25:record>
+				<ns25:eff_dated_info>
+					<ns25:data>
+						<ns25:effective_date>1900-01-01</ns25:effective_date>
+						<ns25:end_date>9999-12-31</ns25:end_date>
+						<ns25:values>
+							<ns25:ld_value>
+								<ns25:fieldValue>JLP Clearing - Pay</ns25:fieldValue>
+							</ns25:ld_value>
+						</ns25:values>
+					</ns25:data>
+				</ns25:eff_dated_info>
+				<ns25:keys>
+					<ns25:ld_key>
+						<ns25:fieldValue>13020-00000000-000</ns25:fieldValue>
+					</ns25:ld_key>
+				</ns25:keys>
+			</ns25:record>
+		</ns25:data>
+	</ns24:payload>
+</ns24:E2G_importLDData>

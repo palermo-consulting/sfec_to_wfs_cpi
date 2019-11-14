@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://services.workforcesoftware.com/xsd" xmlns:xsd1="http://ws.apache.org/axis2/xsd">
+   <soapenv:Header />
+   <soapenv:Body>
+      <xsd:E2G_importLDData>
+         <!--Optional:-->
+         <xsd:payload>
+            <!--Optional:-->
+            <xsd1:data>
+               <!--Zero or more repetitions:-->
+               <record>
+                  <table>1</table>
+                  <is_join_table>false</is_join_table>
+                  <keys>
+                     <ld_key>
+                        <fieldName>COST_CENTER</fieldName>
+                        <fieldValue>Project C</fieldValue>
+                     </ld_key>
+                  </keys>
+                  <eff_dated_info>
+                     <data>
+                        <effective_date>1900-01-01</effective_date>
+                        <end_date>3000-12-31</end_date>
+                        <values>
+                           <ld_value>
+                              <fieldName>DESCRIPTION</fieldName>
+                              <fieldValue>Location 3</fieldValue>
+                           </ld_value>
+                        </values>
+                     </data>
+                  </eff_dated_info>
+               </record>
+               <record>
+                  <table>1</table>
+                  <is_join_table>false</is_join_table>
+                  <keys>
+                     <ld_key>
+                        <fieldName>COST_CENTER</fieldName>
+                        <fieldValue>Project D</fieldValue>
+                     </ld_key>
+                  </keys>
+                  <eff_dated_info>
+                     <data>
+                        <effective_date>1900-01-01</effective_date>
+                        <end_date>3000-12-31</end_date>
+                        <values>
+                           <ld_value>
+                              <fieldName>DESCRIPTION</fieldName>
+                              <fieldValue>Location 4</fieldValue>
+                           </ld_value>
+                        </values>
+                     </data>
+                  </eff_dated_info>
+               </record>
+            </xsd1:data>
+         </xsd:payload>
+      </xsd:E2G_importLDData>
+   </soapenv:Body>
+</soapenv:Envelope>
