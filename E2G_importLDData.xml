@@ -12,10 +12,6 @@
 								<ns9:fieldName>DESCRIPTION</ns9:fieldName>
 								<ns9:fieldValue>Representation - National Capital Region</ns9:fieldValue>
 							</ns9:ld_value>
-							<ns9:ld_value>
-								<ns9:fieldName>C_LD1_STATUS_COST_CENTER</ns9:fieldName>
-								<ns9:fieldValue>I</ns9:fieldValue>
-							</ns9:ld_value>
 						</ns9:values>
 					</ns9:data>
 				</ns9:eff_dated_info>
